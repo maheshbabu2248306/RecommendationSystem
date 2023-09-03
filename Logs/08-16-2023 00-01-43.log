@@ -1,0 +1,33 @@
+[2023-08-16 00:01:46,020] : werkzeug: WARNING:  * Debugger is active!
+[2023-08-16 00:01:46,027] : werkzeug: INFO:  * Debugger PIN: 580-197-472
+[2023-08-16 00:01:46,135] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:01:46] "GET / HTTP/1.1" 200 -
+[2023-08-16 00:01:49,302] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:01:49] "GET /homepage HTTP/1.1" 200 -
+[2023-08-16 00:01:49,919] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:01:49] "GET /static/moneyheist.jpg HTTP/1.1" 200 -
+[2023-08-16 00:02:00,693] : root: DEBUG: csr data loaded
+[2023-08-16 00:02:00,736] : root: DEBUG: movies df loaded
+[2023-08-16 00:02:00,952] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:02:00] "POST /homepage HTTP/1.1" 200 -
+[2023-08-16 00:02:00,995] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:02:00] "[36mGET /static/moneyheist.jpg HTTP/1.1[0m" 304 -
+[2023-08-16 00:03:15,313] : root: DEBUG: csr data loaded
+[2023-08-16 00:03:15,352] : root: DEBUG: movies df loaded
+[2023-08-16 00:03:15,791] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:03:15] "POST /homepage HTTP/1.1" 200 -
+[2023-08-16 00:03:15,835] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:03:15] "[36mGET /static/moneyheist.jpg HTTP/1.1[0m" 304 -
+[2023-08-16 00:03:50,101] : root: DEBUG: csr data loaded
+[2023-08-16 00:03:50,144] : root: DEBUG: movies df loaded
+[2023-08-16 00:03:50,342] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:03:50] "POST /homepage HTTP/1.1" 200 -
+[2023-08-16 00:03:50,370] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:03:50] "[36mGET /static/moneyheist.jpg HTTP/1.1[0m" 304 -
+[2023-08-16 00:04:14,453] : root: DEBUG: csr data loaded
+[2023-08-16 00:04:14,482] : root: DEBUG: movies df loaded
+[2023-08-16 00:04:14,791] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:04:14] "POST /homepage HTTP/1.1" 200 -
+[2023-08-16 00:04:14,822] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:04:14] "[36mGET /static/moneyheist.jpg HTTP/1.1[0m" 304 -
+[2023-08-16 00:04:22,472] : root: DEBUG: csr data loaded
+[2023-08-16 00:04:22,494] : root: DEBUG: movies df loaded
+[2023-08-16 00:04:22,661] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:04:22] "POST /homepage HTTP/1.1" 200 -
+[2023-08-16 00:04:22,689] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:04:22] "[36mGET /static/moneyheist.jpg HTTP/1.1[0m" 304 -
+[2023-08-16 00:04:29,264] : root: DEBUG: csr data loaded
+[2023-08-16 00:04:29,286] : root: DEBUG: movies df loaded
+[2023-08-16 00:04:29,468] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:04:29] "POST /homepage HTTP/1.1" 200 -
+[2023-08-16 00:04:29,492] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:04:29] "[36mGET /static/moneyheist.jpg HTTP/1.1[0m" 304 -
+[2023-08-16 00:04:40,760] : root: DEBUG: csr data loaded
+[2023-08-16 00:04:40,785] : root: DEBUG: movies df loaded
+[2023-08-16 00:04:41,006] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:04:41] "POST /homepage HTTP/1.1" 200 -
+[2023-08-16 00:04:41,031] : werkzeug: INFO: 127.0.0.1 - - [16/Aug/2023 00:04:41] "[36mGET /static/moneyheist.jpg HTTP/1.1[0m" 304 -

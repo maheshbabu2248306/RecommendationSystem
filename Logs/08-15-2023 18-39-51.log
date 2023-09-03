@@ -1,0 +1,197 @@
+[2023-08-15 18:39:53,362] : werkzeug: INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-15 18:39:53,362] : werkzeug: INFO: [33mPress CTRL+C to quit[0m
+[2023-08-15 18:39:56,899] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:39:56] "GET / HTTP/1.1" 200 -
+[2023-08-15 18:40:00,353] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:40:00] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 18:40:00,846] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:40:00] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 18:40:05,647] : root: DEBUG: csr data loaded
+[2023-08-15 18:40:05,670] : root: DEBUG: movies df loaded
+[2023-08-15 18:40:05,859] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:40:05] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:40:05,886] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:40:05] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 18:40:16,342] : root: DEBUG: csr data loaded
+[2023-08-15 18:40:16,363] : root: DEBUG: movies df loaded
+[2023-08-15 18:40:16,495] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:40:16] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:40:16,515] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:40:16] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 18:40:21,752] : root: DEBUG: csr data loaded
+[2023-08-15 18:40:21,774] : root: DEBUG: movies df loaded
+[2023-08-15 18:40:21,900] : root: ERROR: Could not initiate model training
+[2023-08-15 18:40:21,900] : root: ERROR: Error occured in file [E:\Personal\Projects\RecommendationSystem\src\Components\model_development.py] at line_no: [43] with message [index 0 is out of bounds for axis 0 with size 0]
+[2023-08-15 18:40:21,901] : application: ERROR: Exception on /homepage [POST]
+Traceback (most recent call last):
+  File "E:\Personal\Projects\RecommendationSystem\src\Components\model_development.py", line 43, in initiate_model_training
+    movie_idx = final_dataset[final_dataset['movieId'] == movie_idx].index[0]
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\pandas\core\indexes\base.py", line 5175, in __getitem__
+    return getitem(key)
+IndexError: index 0 is out of bounds for axis 0 with size 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "E:\Personal\Projects\RecommendationSystem\application.py", line 21, in homepage
+    recommendations = model_obj.get_recommendations(val)
+  File "E:\Personal\Projects\RecommendationSystem\src\Components\model_development.py", line 23, in get_recommendations
+    df = self.initiate_model_training(movie_name)
+  File "E:\Personal\Projects\RecommendationSystem\src\Components\model_development.py", line 62, in initiate_model_training
+    raise CustomException(e,sys)
+src.exception.CustomException: Error occured in file [E:\Personal\Projects\RecommendationSystem\src\Components\model_development.py] at line_no: [43] with message [index 0 is out of bounds for axis 0 with size 0]
+[2023-08-15 18:40:21,907] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:40:21] "[35m[1mPOST /homepage HTTP/1.1[0m" 500 -
+[2023-08-15 18:40:29,131] : root: DEBUG: csr data loaded
+[2023-08-15 18:40:29,157] : root: DEBUG: movies df loaded
+[2023-08-15 18:40:29,309] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:40:29] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:40:29,353] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:40:29] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 18:40:48,159] : root: DEBUG: csr data loaded
+[2023-08-15 18:40:48,180] : root: DEBUG: movies df loaded
+[2023-08-15 18:40:48,289] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 18:40:48,290] : application: ERROR: Exception on /homepage [POST]
+Traceback (most recent call last):
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "E:\Personal\Projects\RecommendationSystem\application.py", line 23, in homepage
+    length = len(recommendations)
+TypeError: object of type 'NoneType' has no len()
+[2023-08-15 18:40:48,291] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:40:48] "[35m[1mPOST /homepage HTTP/1.1[0m" 500 -
+[2023-08-15 18:40:55,571] : root: DEBUG: csr data loaded
+[2023-08-15 18:40:55,598] : root: DEBUG: movies df loaded
+[2023-08-15 18:40:55,699] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 18:40:55,701] : application: ERROR: Exception on /homepage [POST]
+Traceback (most recent call last):
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "E:\Personal\Projects\RecommendationSystem\application.py", line 23, in homepage
+    length = len(recommendations)
+TypeError: object of type 'NoneType' has no len()
+[2023-08-15 18:40:55,701] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:40:55] "[35m[1mPOST /homepage HTTP/1.1[0m" 500 -
+[2023-08-15 18:41:02,099] : root: DEBUG: csr data loaded
+[2023-08-15 18:41:02,131] : root: DEBUG: movies df loaded
+[2023-08-15 18:41:02,261] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:41:02] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:41:02,286] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:41:02] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 18:41:13,175] : root: DEBUG: csr data loaded
+[2023-08-15 18:41:13,199] : root: DEBUG: movies df loaded
+[2023-08-15 18:41:13,326] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:41:13] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:41:13,352] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:41:13] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 18:41:32,637] : root: DEBUG: csr data loaded
+[2023-08-15 18:41:32,665] : root: DEBUG: movies df loaded
+[2023-08-15 18:41:32,876] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 18:41:32,879] : application: ERROR: Exception on /homepage [POST]
+Traceback (most recent call last):
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "E:\Personal\Projects\RecommendationSystem\application.py", line 23, in homepage
+    length = len(recommendations)
+TypeError: object of type 'NoneType' has no len()
+[2023-08-15 18:41:32,880] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:41:32] "[35m[1mPOST /homepage HTTP/1.1[0m" 500 -
+[2023-08-15 18:41:40,827] : root: DEBUG: csr data loaded
+[2023-08-15 18:41:40,845] : root: DEBUG: movies df loaded
+[2023-08-15 18:41:40,957] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 18:41:40,959] : application: ERROR: Exception on /homepage [POST]
+Traceback (most recent call last):
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "E:\Personal\Projects\RecommendationSystem\application.py", line 23, in homepage
+    length = len(recommendations)
+TypeError: object of type 'NoneType' has no len()
+[2023-08-15 18:41:40,959] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:41:40] "[35m[1mPOST /homepage HTTP/1.1[0m" 500 -
+[2023-08-15 18:41:44,042] : root: DEBUG: csr data loaded
+[2023-08-15 18:41:44,069] : root: DEBUG: movies df loaded
+[2023-08-15 18:41:44,167] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 18:41:44,170] : application: ERROR: Exception on /homepage [POST]
+Traceback (most recent call last):
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "E:\Personal\Projects\RecommendationSystem\application.py", line 23, in homepage
+    length = len(recommendations)
+TypeError: object of type 'NoneType' has no len()
+[2023-08-15 18:41:44,170] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:41:44] "[35m[1mPOST /homepage HTTP/1.1[0m" 500 -
+[2023-08-15 18:41:53,428] : root: DEBUG: csr data loaded
+[2023-08-15 18:41:53,450] : root: DEBUG: movies df loaded
+[2023-08-15 18:41:53,551] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 18:41:53,552] : application: ERROR: Exception on /homepage [POST]
+Traceback (most recent call last):
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "E:\Personal\Projects\RecommendationSystem\application.py", line 23, in homepage
+    length = len(recommendations)
+TypeError: object of type 'NoneType' has no len()
+[2023-08-15 18:41:53,553] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:41:53] "[35m[1mPOST /homepage HTTP/1.1[0m" 500 -
+[2023-08-15 18:42:05,910] : root: DEBUG: csr data loaded
+[2023-08-15 18:42:05,927] : root: DEBUG: movies df loaded
+[2023-08-15 18:42:06,043] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:42:06] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:42:06,065] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:42:06] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 18:42:13,020] : root: DEBUG: csr data loaded
+[2023-08-15 18:42:13,043] : root: DEBUG: movies df loaded
+[2023-08-15 18:42:13,161] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 18:42:13,163] : application: ERROR: Exception on /homepage [POST]
+Traceback (most recent call last):
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "E:\Personal\Projects\RecommendationSystem\application.py", line 23, in homepage
+    length = len(recommendations)
+TypeError: object of type 'NoneType' has no len()
+[2023-08-15 18:42:13,164] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:42:13] "[35m[1mPOST /homepage HTTP/1.1[0m" 500 -
+[2023-08-15 18:42:16,803] : root: DEBUG: csr data loaded
+[2023-08-15 18:42:16,830] : root: DEBUG: movies df loaded
+[2023-08-15 18:42:16,958] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 18:42:16,959] : application: ERROR: Exception on /homepage [POST]
+Traceback (most recent call last):
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "E:\Personal\Projects\RecommendationSystem\application.py", line 23, in homepage
+    length = len(recommendations)
+TypeError: object of type 'NoneType' has no len()
+[2023-08-15 18:42:16,960] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:42:16] "[35m[1mPOST /homepage HTTP/1.1[0m" 500 -

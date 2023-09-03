@@ -1,0 +1,25 @@
+[2023-08-15 21:44:53,049] : werkzeug: WARNING:  * Debugger is active!
+[2023-08-15 21:44:53,057] : werkzeug: INFO:  * Debugger PIN: 580-197-472
+[2023-08-15 21:44:53,693] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:44:53] "GET / HTTP/1.1" 200 -
+[2023-08-15 21:44:57,359] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:44:57] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 21:44:58,012] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:44:58] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:45:00,317] : root: DEBUG: csr data loaded
+[2023-08-15 21:45:00,363] : root: DEBUG: movies df loaded
+[2023-08-15 21:45:00,577] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:45:00] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 21:45:00,613] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:45:00] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:45:27,835] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:45:27] "GET / HTTP/1.1" 200 -
+[2023-08-15 21:45:30,833] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:45:30] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 21:45:30,875] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:45:30] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:45:38,698] : root: DEBUG: csr data loaded
+[2023-08-15 21:45:38,730] : root: DEBUG: movies df loaded
+[2023-08-15 21:45:38,973] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:45:38] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 21:45:39,014] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:45:39] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:46:24,888] : root: DEBUG: csr data loaded
+[2023-08-15 21:46:24,924] : root: DEBUG: movies df loaded
+[2023-08-15 21:46:25,104] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:46:25] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 21:46:25,160] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:46:25] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:46:29,063] : root: DEBUG: csr data loaded
+[2023-08-15 21:46:29,095] : root: DEBUG: movies df loaded
+[2023-08-15 21:46:29,391] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:46:29] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 21:46:29,445] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:46:29] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:47:44,003] : werkzeug: INFO:  * Detected change in 'E:\\Personal\\Projects\\RecommendationSystem\\application.py', reloading

@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Demofile</title>
+        <style>
+            .block1{
+                background-color: pink;
+                margin: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="block">
+        <div class="div" id="id1" style="background-color:green; width:200px; height:100px; padding:20px">
+            <h2>This is div1</h2>
+        </div>
+        </div>
+
+        <br><br><button onclick="myFunction(10)">Append</button>
+        <script>
+
+            
+
+            function myFunction(value) {
+            
+            var iDiv = document.createElement('div');
+            iDiv.id = 'block0';
+            iDiv.className = 'block0';
+            iDiv.innerHTML = 'firstblock0';
+            document.getElementsByTagName('body')[0].appendChild(iDiv);
+
+            for (let i = 1; i <= value; i++){
+            //
+
+            /*iDiv.id = 'block'+i;
+            iDiv.className = 'block'+i;
+            iDiv.innerHTML = 'firstblock'+i;
+            document.getElementsByTagName('body')[0].appendChild(iDiv);
+            */
+            var div2 = document.createElement('div');
+            
+            //iDiv = document.getElementById('block'+(i-1))
+
+            div2.className = 'block-2';
+            div2.innerHTML = 'secondblock'+i;
+            div2.style = 'position:relative; top: 20px;width:200px;height:100px; padding:20px;background-color:yellow;'
+            iDiv.appendChild(div2);
+            }
+        }
+        </script>
+    </body>
+</html>

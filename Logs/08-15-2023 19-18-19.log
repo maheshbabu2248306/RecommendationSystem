@@ -1,0 +1,10 @@
+[2023-08-15 19:18:22,282] : werkzeug: INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-15 19:18:22,282] : werkzeug: INFO: [33mPress CTRL+C to quit[0m
+[2023-08-15 19:18:23,385] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 19:18:23] "GET / HTTP/1.1" 200 -
+[2023-08-15 19:18:28,420] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 19:18:28] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 19:18:28,953] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 19:18:28] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 19:18:33,350] : root: DEBUG: csr data loaded
+[2023-08-15 19:18:33,376] : root: DEBUG: movies df loaded
+[2023-08-15 19:18:33,533] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 19:18:33] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 19:18:33,576] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 19:18:33] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -

@@ -1,0 +1,21 @@
+[2023-08-15 17:03:34,892] : werkzeug: WARNING:  * Debugger is active!
+[2023-08-15 17:03:34,902] : werkzeug: INFO:  * Debugger PIN: 121-658-322
+[2023-08-15 17:03:35,076] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:03:35] "GET / HTTP/1.1" 200 -
+[2023-08-15 17:03:35,744] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:03:35] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 17:08:45,615] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:08:45] "GET / HTTP/1.1" 200 -
+[2023-08-15 17:08:45,652] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:08:45] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 17:09:42,174] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:09:42] "GET / HTTP/1.1" 200 -
+[2023-08-15 17:09:42,206] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:09:42] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 17:12:11,170] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:12:11] "GET / HTTP/1.1" 200 -
+[2023-08-15 17:12:11,190] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:12:11] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 17:12:47,208] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:12:47] "GET / HTTP/1.1" 200 -
+[2023-08-15 17:12:47,237] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:12:47] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 17:13:43,205] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:13:43] "GET / HTTP/1.1" 200 -
+[2023-08-15 17:13:43,226] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:13:43] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 17:14:37,793] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:14:37] "GET / HTTP/1.1" 200 -
+[2023-08-15 17:14:37,827] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:14:37] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 17:15:03,247] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:15:03] "GET / HTTP/1.1" 200 -
+[2023-08-15 17:15:03,275] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:15:03] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 17:18:22,342] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:18:22] "GET / HTTP/1.1" 200 -
+[2023-08-15 17:18:22,370] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:18:22] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 17:23:52,457] : werkzeug: INFO:  * Detected change in 'e:\\personal\\projects\\recommendationsystem\\application.py', reloading

@@ -1,0 +1,3 @@
+[2023-08-15 10:56:05,853] : root: INFO: Read the datasets from the notebook folder
+[2023-08-15 10:56:05,853] : root: ERROR: Error while inititating the data ingestion
+[2023-08-15 10:56:05,853] : root: ERROR: Error occured in file [E:\Personal\Projects\RecommendationSystem\src\Components\data_ingestion.py] at line_no: [23] with message ['DataIngestion' object has no attribute 'data_ingestion']

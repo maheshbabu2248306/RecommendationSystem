@@ -1,0 +1,9 @@
+[2023-08-15 22:00:40,925] : werkzeug: WARNING:  * Debugger is active!
+[2023-08-15 22:00:40,933] : werkzeug: INFO:  * Debugger PIN: 580-197-472
+[2023-08-15 22:00:41,109] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:00:41] "GET / HTTP/1.1" 200 -
+[2023-08-15 22:00:43,698] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:00:43] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 22:00:44,435] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:00:44] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:00:48,632] : root: DEBUG: csr data loaded
+[2023-08-15 22:00:48,685] : root: DEBUG: movies df loaded
+[2023-08-15 22:00:48,925] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:00:48] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:00:48,969] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:00:48] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -

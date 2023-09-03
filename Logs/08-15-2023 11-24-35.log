@@ -1,0 +1,4 @@
+[2023-08-15 11:24:37,270] : root: INFO: Read the datasets from the notebook folder
+[2023-08-15 11:24:37,631] : root: INFO: Starting data transformation
+[2023-08-15 11:24:37,631] : root: ERROR: Error while datatransformation
+[2023-08-15 11:24:37,631] : root: ERROR: Error occured in file [e:\personal\projects\recommendationsystem\src\Components\data_transformation.py] at line_no: [19] with message [name 'pd' is not defined]

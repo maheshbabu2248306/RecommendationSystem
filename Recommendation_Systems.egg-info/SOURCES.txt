@@ -1,0 +1,11 @@
+setup.py
+Recommendation_Systems.egg-info/PKG-INFO
+Recommendation_Systems.egg-info/SOURCES.txt
+Recommendation_Systems.egg-info/dependency_links.txt
+Recommendation_Systems.egg-info/requires.txt
+Recommendation_Systems.egg-info/top_level.txt
+src/__init__.py
+src/exception.py
+src/logger.py
+src/Components/__init__.py
+src/Components/data_ingestion.py

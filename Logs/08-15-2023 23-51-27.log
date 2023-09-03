@@ -1,0 +1,30 @@
+[2023-08-15 23:51:29,695] : werkzeug: WARNING:  * Debugger is active!
+[2023-08-15 23:51:29,703] : werkzeug: INFO:  * Debugger PIN: 580-197-472
+[2023-08-15 23:51:29,834] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 23:51:29] "GET / HTTP/1.1" 200 -
+[2023-08-15 23:51:29,940] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 23:51:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-08-15 23:51:32,956] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 23:51:32] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 23:51:33,548] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 23:51:33] "GET /static/picture4.jpg HTTP/1.1" 200 -
+[2023-08-15 23:51:39,079] : root: DEBUG: csr data loaded
+[2023-08-15 23:51:39,111] : root: DEBUG: movies df loaded
+[2023-08-15 23:51:39,324] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 23:51:39] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 23:51:39,353] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 23:51:39] "[36mGET /static/picture4.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 23:52:40,918] : root: DEBUG: csr data loaded
+[2023-08-15 23:52:40,939] : root: DEBUG: movies df loaded
+[2023-08-15 23:52:41,282] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 23:52:41] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 23:52:41,338] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 23:52:41] "GET /static/picture5.jpg HTTP/1.1" 200 -
+[2023-08-15 23:52:51,397] : root: DEBUG: csr data loaded
+[2023-08-15 23:52:51,423] : root: DEBUG: movies df loaded
+[2023-08-15 23:52:51,580] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 23:52:51] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 23:52:51,635] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 23:52:51] "[36mGET /static/picture5.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 23:52:54,509] : root: DEBUG: csr data loaded
+[2023-08-15 23:52:54,530] : root: DEBUG: movies df loaded
+[2023-08-15 23:52:54,679] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 23:52:54] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 23:52:54,703] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 23:52:54] "[36mGET /static/picture5.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 23:53:03,841] : root: DEBUG: csr data loaded
+[2023-08-15 23:53:03,863] : root: DEBUG: movies df loaded
+[2023-08-15 23:53:04,052] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 23:53:04] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 23:53:04,077] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 23:53:04] "[36mGET /static/picture5.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 23:53:30,003] : root: DEBUG: csr data loaded
+[2023-08-15 23:53:30,023] : root: DEBUG: movies df loaded
+[2023-08-15 23:53:30,164] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 23:53:30] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 23:53:30,193] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 23:53:30] "[36mGET /static/picture5.jpg HTTP/1.1[0m" 304 -

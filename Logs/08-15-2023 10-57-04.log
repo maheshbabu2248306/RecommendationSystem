@@ -1,0 +1,2 @@
+[2023-08-15 10:57:05,867] : root: ERROR: Error while inititating the data ingestion
+[2023-08-15 10:57:05,868] : root: ERROR: Error occured in file [E:\Personal\Projects\RecommendationSystem\src\Components\data_ingestion.py] at line_no: [18] with message [[Errno 22] Invalid argument: 'Notebook\ratings.csv']

@@ -1,0 +1,3 @@
+[2023-08-15 17:24:00,102] : werkzeug: WARNING:  * Debugger is active!
+[2023-08-15 17:24:00,115] : werkzeug: INFO:  * Debugger PIN: 121-658-322
+[2023-08-15 17:24:20,137] : werkzeug: INFO:  * Detected change in 'E:\\Personal\\Projects\\RecommendationSystem\\application.py', reloading

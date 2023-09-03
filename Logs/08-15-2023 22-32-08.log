@@ -1,0 +1,23 @@
+[2023-08-15 22:32:10,400] : werkzeug: WARNING:  * Debugger is active!
+[2023-08-15 22:32:10,411] : werkzeug: INFO:  * Debugger PIN: 580-197-472
+[2023-08-15 22:32:10,529] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:32:10] "GET / HTTP/1.1" 200 -
+[2023-08-15 22:32:13,390] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:32:13] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 22:32:13,894] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:32:13] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:32:17,704] : root: DEBUG: csr data loaded
+[2023-08-15 22:32:17,727] : root: DEBUG: movies df loaded
+[2023-08-15 22:32:17,866] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:32:17] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:32:17,893] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:32:17] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:32:43,396] : root: DEBUG: csr data loaded
+[2023-08-15 22:32:43,421] : root: DEBUG: movies df loaded
+[2023-08-15 22:32:43,546] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:32:43] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:32:43,568] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:32:43] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:32:49,810] : root: DEBUG: csr data loaded
+[2023-08-15 22:32:49,836] : root: DEBUG: movies df loaded
+[2023-08-15 22:32:50,010] : root: ERROR: Could not initiate model training
+[2023-08-15 22:32:50,010] : root: ERROR: Error occured in file [E:\Personal\Projects\RecommendationSystem\src\Components\model_development.py] at line_no: [44] with message [index 0 is out of bounds for axis 0 with size 0]
+[2023-08-15 22:32:50,050] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:32:50] "[35m[1mPOST /homepage HTTP/1.1[0m" 500 -
+[2023-08-15 22:32:50,081] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:32:50] "[36mGET /homepage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 22:32:50,092] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:32:50] "[36mGET /homepage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 22:32:50,124] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:32:50] "[36mGET /homepage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 22:32:50,152] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:32:50] "[36mGET /homepage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 22:33:31,605] : werkzeug: INFO:  * Detected change in 'e:\\personal\\projects\\recommendationsystem\\src\\Components\\model_development.py', reloading

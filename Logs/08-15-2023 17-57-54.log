@@ -1,0 +1,7 @@
+[2023-08-15 17:57:57,008] : werkzeug: WARNING:  * Debugger is active!
+[2023-08-15 17:57:57,015] : werkzeug: INFO:  * Debugger PIN: 121-658-322
+[2023-08-15 17:57:59,290] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:57:59] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 17:57:59,951] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:57:59] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 17:58:04,277] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:58:04] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 17:58:04,299] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:58:04] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 17:58:35,175] : werkzeug: INFO:  * Detected change in 'e:\\personal\\projects\\recommendationsystem\\application.py', reloading

@@ -1,0 +1,65 @@
+[2023-08-15 21:05:54,467] : werkzeug: INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-15 21:05:54,467] : werkzeug: INFO: [33mPress CTRL+C to quit[0m
+[2023-08-15 21:05:58,276] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:05:58] "GET / HTTP/1.1" 200 -
+[2023-08-15 21:06:02,143] : application: ERROR: Exception on /homepage [GET]
+Traceback (most recent call last):
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "E:\Personal\Projects\RecommendationSystem\application.py", line 38, in homepage
+    return render_template("demofile1.html")
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\Personal\Projects\RecommendationSystem\templates\demofile1.html", line 26, in template
+    {% if {{ length }}%}
+jinja2.exceptions.TemplateSyntaxError: expected token ':', got '}'
+[2023-08-15 21:06:02,154] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:06:02] "[35m[1mGET /homepage HTTP/1.1[0m" 500 -
+[2023-08-15 21:06:43,087] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:06:43] "GET / HTTP/1.1" 200 -
+[2023-08-15 21:06:49,055] : application: ERROR: Exception on /homepage [GET]
+Traceback (most recent call last):
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "E:\Personal\Projects\RecommendationSystem\application.py", line 38, in homepage
+    return render_template("demofile1.html")
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\flask\templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "E:\Personal\Projects\RecommendationSystem\myenv01\lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "E:\Personal\Projects\RecommendationSystem\templates\demofile1.html", line 26, in template
+    {% if {{ length }}%}
+jinja2.exceptions.TemplateSyntaxError: expected token ':', got '}'
+[2023-08-15 21:06:49,065] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:06:49] "[35m[1mGET /homepage HTTP/1.1[0m" 500 -

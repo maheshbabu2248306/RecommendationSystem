@@ -1,0 +1,9 @@
+[2023-08-15 18:17:32,364] : werkzeug: INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-15 18:17:32,365] : werkzeug: INFO: [33mPress CTRL+C to quit[0m
+[2023-08-15 18:17:42,856] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:17:42] "GET / HTTP/1.1" 200 -
+[2023-08-15 18:17:43,459] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:17:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-08-15 18:17:52,280] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:17:52] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 18:17:57,666] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:17:57] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:17:58,990] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:17:58] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:17:59,626] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:17:59] "POST /homepage HTTP/1.1" 200 -

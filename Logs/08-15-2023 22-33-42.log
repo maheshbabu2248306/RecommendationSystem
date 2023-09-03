@@ -1,0 +1,243 @@
+[2023-08-15 22:33:44,788] : werkzeug: WARNING:  * Debugger is active!
+[2023-08-15 22:33:44,795] : werkzeug: INFO:  * Debugger PIN: 580-197-472
+[2023-08-15 22:34:14,390] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:34:14] "GET / HTTP/1.1" 200 -
+[2023-08-15 22:34:18,541] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:34:18] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 22:34:19,117] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:34:19] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:34:25,943] : root: DEBUG: csr data loaded
+[2023-08-15 22:34:25,977] : root: DEBUG: movies df loaded
+[2023-08-15 22:34:26,125] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:34:26] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:34:26,151] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:34:26] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:34:39,483] : root: DEBUG: csr data loaded
+[2023-08-15 22:34:39,499] : root: DEBUG: movies df loaded
+[2023-08-15 22:34:39,595] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 22:34:39,598] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:34:39] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:34:39,625] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:34:39] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:34:50,951] : root: DEBUG: csr data loaded
+[2023-08-15 22:34:50,969] : root: DEBUG: movies df loaded
+[2023-08-15 22:34:51,051] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 22:34:51,053] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:34:51] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:34:51,077] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:34:51] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:34:55,402] : root: DEBUG: csr data loaded
+[2023-08-15 22:34:55,421] : root: DEBUG: movies df loaded
+[2023-08-15 22:34:55,531] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:34:55] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:34:55,559] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:34:55] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:35:46,863] : root: DEBUG: csr data loaded
+[2023-08-15 22:35:46,883] : root: DEBUG: movies df loaded
+[2023-08-15 22:35:47,127] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:35:47] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:35:47,149] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:35:47] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:35:51,527] : root: DEBUG: csr data loaded
+[2023-08-15 22:35:51,548] : root: DEBUG: movies df loaded
+[2023-08-15 22:35:51,698] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:35:51] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:35:51,723] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:35:51] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:36:11,891] : root: DEBUG: csr data loaded
+[2023-08-15 22:36:11,909] : root: DEBUG: movies df loaded
+[2023-08-15 22:36:12,065] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:36:12] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:36:12,093] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:36:12] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:36:20,442] : root: DEBUG: csr data loaded
+[2023-08-15 22:36:20,459] : root: DEBUG: movies df loaded
+[2023-08-15 22:36:20,634] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:36:20] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:36:20,658] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:36:20] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:36:33,424] : root: DEBUG: csr data loaded
+[2023-08-15 22:36:33,447] : root: DEBUG: movies df loaded
+[2023-08-15 22:36:33,637] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:36:33] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:36:33,666] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:36:33] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:37:49,654] : root: DEBUG: csr data loaded
+[2023-08-15 22:37:49,679] : root: DEBUG: movies df loaded
+[2023-08-15 22:37:51,577] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:37:51] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:37:51,599] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:37:51] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:38:02,301] : root: DEBUG: csr data loaded
+[2023-08-15 22:38:02,319] : root: DEBUG: movies df loaded
+[2023-08-15 22:38:02,496] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:38:02] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:38:02,522] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:38:02] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:38:12,752] : root: DEBUG: csr data loaded
+[2023-08-15 22:38:12,772] : root: DEBUG: movies df loaded
+[2023-08-15 22:38:12,929] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:38:12] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:38:12,958] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:38:12] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:38:36,975] : root: DEBUG: csr data loaded
+[2023-08-15 22:38:37,005] : root: DEBUG: movies df loaded
+[2023-08-15 22:38:37,181] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:38:37] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:38:37,206] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:38:37] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:38:42,298] : root: DEBUG: csr data loaded
+[2023-08-15 22:38:42,321] : root: DEBUG: movies df loaded
+[2023-08-15 22:38:42,451] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:38:42] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:38:42,476] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:38:42] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:38:59,460] : root: DEBUG: csr data loaded
+[2023-08-15 22:38:59,477] : root: DEBUG: movies df loaded
+[2023-08-15 22:38:59,606] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:38:59] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:38:59,629] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:38:59] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:40:08,475] : root: DEBUG: csr data loaded
+[2023-08-15 22:40:08,495] : root: DEBUG: movies df loaded
+[2023-08-15 22:40:08,689] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:40:08] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:40:08,721] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:40:08] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:40:22,364] : root: DEBUG: csr data loaded
+[2023-08-15 22:40:22,388] : root: DEBUG: movies df loaded
+[2023-08-15 22:40:22,572] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:40:22] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:40:22,609] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:40:22] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:40:39,109] : root: DEBUG: csr data loaded
+[2023-08-15 22:40:39,132] : root: DEBUG: movies df loaded
+[2023-08-15 22:40:39,350] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:40:39] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:40:39,377] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:40:39] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:40:55,209] : root: DEBUG: csr data loaded
+[2023-08-15 22:40:55,232] : root: DEBUG: movies df loaded
+[2023-08-15 22:40:55,415] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:40:55] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:40:55,442] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:40:55] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:41:07,007] : root: DEBUG: csr data loaded
+[2023-08-15 22:41:07,028] : root: DEBUG: movies df loaded
+[2023-08-15 22:41:07,150] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:41:07] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:41:07,176] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:41:07] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:41:24,793] : root: DEBUG: csr data loaded
+[2023-08-15 22:41:24,816] : root: DEBUG: movies df loaded
+[2023-08-15 22:41:24,989] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:41:24] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:41:25,028] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:41:25] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:41:38,021] : root: DEBUG: csr data loaded
+[2023-08-15 22:41:38,039] : root: DEBUG: movies df loaded
+[2023-08-15 22:41:38,181] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:41:38] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:41:38,208] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:41:38] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:41:50,246] : root: DEBUG: csr data loaded
+[2023-08-15 22:41:50,272] : root: DEBUG: movies df loaded
+[2023-08-15 22:41:50,460] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:41:50] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:41:50,488] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:41:50] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:42:01,702] : root: DEBUG: csr data loaded
+[2023-08-15 22:42:01,725] : root: DEBUG: movies df loaded
+[2023-08-15 22:42:01,950] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:42:01] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:42:02,023] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:42:02] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:42:09,140] : root: DEBUG: csr data loaded
+[2023-08-15 22:42:09,157] : root: DEBUG: movies df loaded
+[2023-08-15 22:42:09,309] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:42:09] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:42:09,337] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:42:09] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:42:21,400] : root: DEBUG: csr data loaded
+[2023-08-15 22:42:21,423] : root: DEBUG: movies df loaded
+[2023-08-15 22:42:21,575] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:42:21] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:42:21,605] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:42:21] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:42:26,724] : root: DEBUG: csr data loaded
+[2023-08-15 22:42:26,747] : root: DEBUG: movies df loaded
+[2023-08-15 22:42:26,908] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:42:26] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:42:26,938] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:42:26] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:42:36,032] : root: DEBUG: csr data loaded
+[2023-08-15 22:42:36,051] : root: DEBUG: movies df loaded
+[2023-08-15 22:42:36,189] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:42:36] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:42:36,212] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:42:36] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:42:45,048] : root: DEBUG: csr data loaded
+[2023-08-15 22:42:45,067] : root: DEBUG: movies df loaded
+[2023-08-15 22:42:45,216] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:42:45] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:42:45,245] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:42:45] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:43:17,445] : root: DEBUG: csr data loaded
+[2023-08-15 22:43:17,465] : root: DEBUG: movies df loaded
+[2023-08-15 22:43:17,642] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:43:17] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:43:17,666] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:43:17] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:43:40,415] : root: DEBUG: csr data loaded
+[2023-08-15 22:43:40,441] : root: DEBUG: movies df loaded
+[2023-08-15 22:43:40,629] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:43:40] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:43:40,655] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:43:40] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:43:52,864] : root: DEBUG: csr data loaded
+[2023-08-15 22:43:52,890] : root: DEBUG: movies df loaded
+[2023-08-15 22:43:53,052] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:43:53] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:43:53,077] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:43:53] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:44:08,702] : root: DEBUG: csr data loaded
+[2023-08-15 22:44:08,723] : root: DEBUG: movies df loaded
+[2023-08-15 22:44:08,885] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:44:08] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:44:08,909] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:44:08] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:44:43,555] : root: DEBUG: csr data loaded
+[2023-08-15 22:44:43,582] : root: DEBUG: movies df loaded
+[2023-08-15 22:44:43,725] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:44:43] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:44:43,754] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:44:43] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:44:52,734] : root: DEBUG: csr data loaded
+[2023-08-15 22:44:52,754] : root: DEBUG: movies df loaded
+[2023-08-15 22:44:52,873] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 22:44:52,877] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:44:52] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:44:52,902] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:44:52] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:44:56,966] : root: DEBUG: csr data loaded
+[2023-08-15 22:44:56,988] : root: DEBUG: movies df loaded
+[2023-08-15 22:44:57,116] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 22:44:57,119] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:44:57] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:44:57,144] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:44:57] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:45:02,361] : root: DEBUG: csr data loaded
+[2023-08-15 22:45:02,379] : root: DEBUG: movies df loaded
+[2023-08-15 22:45:02,488] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 22:45:02,492] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:45:02] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:45:02,547] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:45:02] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:45:05,096] : root: DEBUG: csr data loaded
+[2023-08-15 22:45:05,114] : root: DEBUG: movies df loaded
+[2023-08-15 22:45:05,219] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 22:45:05,222] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:45:05] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:45:05,244] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:45:05] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:45:10,120] : root: DEBUG: csr data loaded
+[2023-08-15 22:45:10,138] : root: DEBUG: movies df loaded
+[2023-08-15 22:45:10,309] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:45:10] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:45:10,336] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:45:10] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:45:29,661] : root: DEBUG: csr data loaded
+[2023-08-15 22:45:29,680] : root: DEBUG: movies df loaded
+[2023-08-15 22:45:29,810] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:45:29] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:45:29,836] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:45:29] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:45:35,416] : root: DEBUG: csr data loaded
+[2023-08-15 22:45:35,434] : root: DEBUG: movies df loaded
+[2023-08-15 22:45:35,576] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:45:35] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:45:35,606] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:45:35] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:45:51,934] : root: DEBUG: csr data loaded
+[2023-08-15 22:45:51,958] : root: DEBUG: movies df loaded
+[2023-08-15 22:45:52,123] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:45:52] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:45:52,158] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:45:52] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:46:00,679] : root: DEBUG: csr data loaded
+[2023-08-15 22:46:00,697] : root: DEBUG: movies df loaded
+[2023-08-15 22:46:00,873] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:46:00] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:46:00,901] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:46:00] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:46:05,629] : root: DEBUG: csr data loaded
+[2023-08-15 22:46:05,649] : root: DEBUG: movies df loaded
+[2023-08-15 22:46:05,824] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:46:05] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:46:05,880] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:46:05] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:46:15,717] : root: DEBUG: csr data loaded
+[2023-08-15 22:46:15,737] : root: DEBUG: movies df loaded
+[2023-08-15 22:46:15,916] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:46:15] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:46:15,944] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:46:15] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:46:27,512] : root: DEBUG: csr data loaded
+[2023-08-15 22:46:27,536] : root: DEBUG: movies df loaded
+[2023-08-15 22:46:27,686] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:46:27] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:46:27,718] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:46:27] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:47:23,114] : root: DEBUG: csr data loaded
+[2023-08-15 22:47:23,140] : root: DEBUG: movies df loaded
+[2023-08-15 22:47:23,313] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:47:23] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:47:23,340] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:47:23] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:47:26,289] : root: DEBUG: csr data loaded
+[2023-08-15 22:47:26,310] : root: DEBUG: movies df loaded
+[2023-08-15 22:47:26,458] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:47:26] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:47:26,478] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:47:26] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:47:30,098] : root: DEBUG: csr data loaded
+[2023-08-15 22:47:30,119] : root: DEBUG: movies df loaded
+[2023-08-15 22:47:30,250] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:47:30] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:47:30,273] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:47:30] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:48:16,494] : root: DEBUG: csr data loaded
+[2023-08-15 22:48:16,511] : root: DEBUG: movies df loaded
+[2023-08-15 22:48:16,700] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:48:16] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:48:16,734] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:48:16] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:48:21,397] : root: DEBUG: csr data loaded
+[2023-08-15 22:48:21,421] : root: DEBUG: movies df loaded
+[2023-08-15 22:48:21,630] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:48:21] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:48:21,656] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:48:21] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:48:38,496] : root: DEBUG: csr data loaded
+[2023-08-15 22:48:38,515] : root: DEBUG: movies df loaded
+[2023-08-15 22:48:38,676] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:48:38] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:48:38,699] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:48:38] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:48:44,772] : root: DEBUG: csr data loaded
+[2023-08-15 22:48:44,790] : root: DEBUG: movies df loaded
+[2023-08-15 22:48:44,939] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:48:44] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:48:44,964] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:48:44] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:48:48,728] : root: DEBUG: csr data loaded
+[2023-08-15 22:48:48,754] : root: DEBUG: movies df loaded
+[2023-08-15 22:48:48,864] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:48:48] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:48:48,887] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:48:48] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:48:53,525] : root: DEBUG: csr data loaded
+[2023-08-15 22:48:53,540] : root: DEBUG: movies df loaded
+[2023-08-15 22:48:53,672] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:48:53] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:48:53,699] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:48:53] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:50:00,766] : root: DEBUG: csr data loaded
+[2023-08-15 22:50:00,788] : root: DEBUG: movies df loaded
+[2023-08-15 22:50:01,001] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:50:01] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:50:01,030] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:50:01] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:50:06,932] : root: DEBUG: csr data loaded
+[2023-08-15 22:50:06,951] : root: DEBUG: movies df loaded
+[2023-08-15 22:50:07,100] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:50:07] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:50:07,130] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:50:07] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 22:50:09,683] : root: DEBUG: csr data loaded
+[2023-08-15 22:50:09,703] : root: DEBUG: movies df loaded
+[2023-08-15 22:50:09,868] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:50:09] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 22:50:09,898] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 22:50:09] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -

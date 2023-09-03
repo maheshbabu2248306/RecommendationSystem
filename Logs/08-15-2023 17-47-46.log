@@ -1,0 +1,6 @@
+[2023-08-15 17:47:49,248] : werkzeug: WARNING:  * Debugger is active!
+[2023-08-15 17:47:49,261] : werkzeug: INFO:  * Debugger PIN: 121-658-322
+[2023-08-15 17:47:49,401] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:47:49] "GET / HTTP/1.1" 200 -
+[2023-08-15 17:47:50,363] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:47:50] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 17:48:28,803] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:48:28] "GET / HTTP/1.1" 200 -
+[2023-08-15 17:48:28,861] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 17:48:28] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -

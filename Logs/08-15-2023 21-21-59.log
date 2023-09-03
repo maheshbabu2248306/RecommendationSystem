@@ -1,0 +1,48 @@
+[2023-08-15 21:22:02,967] : werkzeug: WARNING:  * Debugger is active!
+[2023-08-15 21:22:02,975] : werkzeug: INFO:  * Debugger PIN: 580-197-472
+[2023-08-15 21:22:03,169] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:22:03] "GET / HTTP/1.1" 200 -
+[2023-08-15 21:22:06,387] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:22:06] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 21:22:06,948] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:22:06] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:22:10,557] : root: DEBUG: csr data loaded
+[2023-08-15 21:22:10,599] : root: DEBUG: movies df loaded
+[2023-08-15 21:22:10,891] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:22:10] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 21:22:10,939] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:22:10] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:22:18,966] : root: DEBUG: csr data loaded
+[2023-08-15 21:22:19,008] : root: DEBUG: movies df loaded
+[2023-08-15 21:22:19,273] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:22:19] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 21:22:19,309] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:22:19] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:22:26,834] : root: DEBUG: csr data loaded
+[2023-08-15 21:22:26,876] : root: DEBUG: movies df loaded
+[2023-08-15 21:22:27,131] : root: ERROR: Could not initiate model training
+[2023-08-15 21:22:27,132] : root: ERROR: Error occured in file [E:\Personal\Projects\RecommendationSystem\src\Components\model_development.py] at line_no: [43] with message [index 0 is out of bounds for axis 0 with size 0]
+[2023-08-15 21:22:27,211] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:22:27] "[35m[1mPOST /homepage HTTP/1.1[0m" 500 -
+[2023-08-15 21:22:27,259] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:22:27] "[36mGET /homepage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 21:22:27,283] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:22:27] "[36mGET /homepage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 21:22:27,363] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:22:27] "[36mGET /homepage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 21:22:27,398] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:22:27] "[36mGET /homepage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 21:24:03,048] : root: DEBUG: csr data loaded
+[2023-08-15 21:24:03,097] : root: DEBUG: movies df loaded
+[2023-08-15 21:24:03,412] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:24:03] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 21:24:03,473] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:24:03] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:24:12,624] : root: DEBUG: csr data loaded
+[2023-08-15 21:24:12,667] : root: DEBUG: movies df loaded
+[2023-08-15 21:24:12,981] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:24:12] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 21:24:13,096] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:24:13] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:24:18,070] : root: DEBUG: csr data loaded
+[2023-08-15 21:24:18,116] : root: DEBUG: movies df loaded
+[2023-08-15 21:24:18,446] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:24:18] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 21:24:18,491] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:24:18] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:24:23,354] : root: DEBUG: csr data loaded
+[2023-08-15 21:24:23,411] : root: DEBUG: movies df loaded
+[2023-08-15 21:24:23,737] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:24:23] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 21:24:23,772] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:24:23] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:24:27,193] : root: DEBUG: csr data loaded
+[2023-08-15 21:24:27,242] : root: DEBUG: movies df loaded
+[2023-08-15 21:24:27,527] : root: ERROR: Could not initiate model training
+[2023-08-15 21:24:27,528] : root: ERROR: Error occured in file [E:\Personal\Projects\RecommendationSystem\src\Components\model_development.py] at line_no: [43] with message [index 0 is out of bounds for axis 0 with size 0]
+[2023-08-15 21:24:27,603] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:24:27] "[35m[1mPOST /homepage HTTP/1.1[0m" 500 -
+[2023-08-15 21:24:27,647] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:24:27] "[36mGET /homepage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-08-15 21:24:27,667] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:24:27] "[36mGET /homepage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-08-15 21:24:27,694] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:24:27] "[36mGET /homepage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 21:24:27,722] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:24:27] "[36mGET /homepage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-08-15 21:25:38,626] : werkzeug: INFO:  * Detected change in 'E:\\Personal\\Projects\\RecommendationSystem\\src\\Components\\model_development.py', reloading

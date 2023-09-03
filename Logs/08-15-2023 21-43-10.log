@@ -1,0 +1,10 @@
+[2023-08-15 21:43:13,075] : werkzeug: WARNING:  * Debugger is active!
+[2023-08-15 21:43:13,081] : werkzeug: INFO:  * Debugger PIN: 580-197-472
+[2023-08-15 21:43:13,196] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:43:13] "GET / HTTP/1.1" 200 -
+[2023-08-15 21:43:15,609] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:43:15] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 21:43:16,190] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:43:16] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:43:19,054] : root: DEBUG: csr data loaded
+[2023-08-15 21:43:19,099] : root: DEBUG: movies df loaded
+[2023-08-15 21:43:19,368] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:43:19] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 21:43:19,445] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:43:19] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:44:40,758] : werkzeug: INFO:  * Detected change in 'e:\\personal\\projects\\recommendationsystem\\application.py', reloading

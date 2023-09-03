@@ -1,0 +1,2 @@
+[2023-08-15 10:48:54,096] : root: ERROR: Error while inititating the data ingestion
+[2023-08-15 10:48:54,096] : root: ERROR: Error occured in file [E:\Personal\Projects\RecommendationSystem\src\Components\data_ingestion.py] at line_no: [17] with message [name 'pd' is not defined]

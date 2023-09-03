@@ -1,0 +1,22 @@
+[2023-08-15 19:24:56,631] : werkzeug: INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-15 19:24:56,631] : werkzeug: INFO: [33mPress CTRL+C to quit[0m
+[2023-08-15 19:25:07,028] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 19:25:07] "GET / HTTP/1.1" 200 -
+[2023-08-15 19:25:10,179] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 19:25:10] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 19:25:10,651] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 19:25:10] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 19:25:13,656] : root: DEBUG: csr data loaded
+[2023-08-15 19:25:13,676] : root: DEBUG: movies df loaded
+[2023-08-15 19:25:13,823] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 19:25:13] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 19:25:13,852] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 19:25:13] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 19:25:28,205] : root: DEBUG: csr data loaded
+[2023-08-15 19:25:28,230] : root: DEBUG: movies df loaded
+[2023-08-15 19:25:28,388] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 19:25:28] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 19:25:28,414] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 19:25:28] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 19:26:04,174] : root: DEBUG: csr data loaded
+[2023-08-15 19:26:04,206] : root: DEBUG: movies df loaded
+[2023-08-15 19:26:04,383] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 19:26:04] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 19:26:04,453] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 19:26:04] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 19:26:07,342] : root: DEBUG: csr data loaded
+[2023-08-15 19:26:07,360] : root: DEBUG: movies df loaded
+[2023-08-15 19:26:07,554] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 19:26:07] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 19:26:07,585] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 19:26:07] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -

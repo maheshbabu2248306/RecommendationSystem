@@ -1,0 +1,19 @@
+[2023-08-15 18:59:17,960] : werkzeug: INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-15 18:59:17,960] : werkzeug: INFO: [33mPress CTRL+C to quit[0m
+[2023-08-15 18:59:22,386] : root: DEBUG: csr data loaded
+[2023-08-15 18:59:22,403] : root: DEBUG: movies df loaded
+[2023-08-15 18:59:22,558] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:59:22] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:59:23,100] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:59:23] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 18:59:26,568] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:59:26] "GET / HTTP/1.1" 200 -
+[2023-08-15 18:59:29,902] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:59:29] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 18:59:29,932] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:59:29] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 18:59:42,460] : root: DEBUG: csr data loaded
+[2023-08-15 18:59:42,479] : root: DEBUG: movies df loaded
+[2023-08-15 18:59:42,590] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 18:59:42,593] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:59:42] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:59:42,619] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:59:42] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 18:59:48,684] : root: DEBUG: csr data loaded
+[2023-08-15 18:59:48,702] : root: DEBUG: movies df loaded
+[2023-08-15 18:59:48,855] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:59:48] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:59:48,879] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:59:48] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -

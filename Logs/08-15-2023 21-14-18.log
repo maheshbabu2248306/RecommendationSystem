@@ -1,0 +1,21 @@
+[2023-08-15 21:14:21,973] : werkzeug: WARNING:  * Debugger is active!
+[2023-08-15 21:14:21,985] : werkzeug: INFO:  * Debugger PIN: 580-197-472
+[2023-08-15 21:14:22,127] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:14:22] "GET / HTTP/1.1" 200 -
+[2023-08-15 21:14:25,487] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:14:25] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 21:14:26,369] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:14:26] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:14:32,195] : root: DEBUG: csr data loaded
+[2023-08-15 21:14:32,247] : root: DEBUG: movies df loaded
+[2023-08-15 21:14:32,507] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:14:32] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 21:14:32,544] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:14:32] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:14:50,240] : root: DEBUG: csr data loaded
+[2023-08-15 21:14:50,273] : root: DEBUG: movies df loaded
+[2023-08-15 21:14:50,595] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:14:50] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 21:14:50,628] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:14:50] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:14:56,743] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:14:56] "GET / HTTP/1.1" 200 -
+[2023-08-15 21:15:00,003] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:15:00] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 21:15:00,094] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:15:00] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:15:21,348] : root: DEBUG: csr data loaded
+[2023-08-15 21:15:21,388] : root: DEBUG: movies df loaded
+[2023-08-15 21:15:21,706] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:15:21] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 21:15:21,757] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:15:21] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:15:37,842] : werkzeug: INFO:  * Detected change in 'E:\\Personal\\Projects\\RecommendationSystem\\application.py', reloading

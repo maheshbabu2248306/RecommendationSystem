@@ -1,0 +1,8 @@
+[2023-08-15 21:09:17,507] : werkzeug: WARNING:  * Debugger is active!
+[2023-08-15 21:09:17,519] : werkzeug: INFO:  * Debugger PIN: 580-197-472
+[2023-08-15 21:09:21,832] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:09:21] "GET / HTTP/1.1" 200 -
+[2023-08-15 21:09:26,227] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:09:26] "[35m[1mGET /homepage HTTP/1.1[0m" 500 -
+[2023-08-15 21:09:27,966] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:09:27] "GET /homepage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2023-08-15 21:09:27,968] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:09:27] "GET /homepage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2023-08-15 21:09:28,042] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:09:28] "GET /homepage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2023-08-15 21:09:28,072] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:09:28] "[36mGET /homepage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

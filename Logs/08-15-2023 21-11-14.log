@@ -1,0 +1,14 @@
+[2023-08-15 21:11:17,351] : werkzeug: WARNING:  * Debugger is active!
+[2023-08-15 21:11:17,364] : werkzeug: INFO:  * Debugger PIN: 580-197-472
+[2023-08-15 21:11:17,490] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:11:17] "GET / HTTP/1.1" 200 -
+[2023-08-15 21:11:34,024] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:11:34] "GET / HTTP/1.1" 200 -
+[2023-08-15 21:11:40,089] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:11:40] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 21:11:41,418] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:11:41] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:11:47,069] : root: DEBUG: csr data loaded
+[2023-08-15 21:11:47,125] : root: DEBUG: movies df loaded
+[2023-08-15 21:11:49,041] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:11:49] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 21:11:49,126] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:11:49] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 21:11:53,671] : root: DEBUG: csr data loaded
+[2023-08-15 21:11:53,714] : root: DEBUG: movies df loaded
+[2023-08-15 21:11:54,013] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:11:54] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 21:11:54,054] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 21:11:54] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -

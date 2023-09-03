@@ -1,0 +1,6 @@
+[2023-08-15 13:45:06,998] : werkzeug: WARNING:  * Debugger is active!
+[2023-08-15 13:45:07,014] : werkzeug: INFO:  * Debugger PIN: 121-658-322
+[2023-08-15 13:45:07,242] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 13:45:07] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 13:45:11,839] : root: DEBUG: csr data loaded
+[2023-08-15 13:45:11,876] : root: DEBUG: movies df loaded
+[2023-08-15 13:45:12,197] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 13:45:12] "POST /homepage HTTP/1.1" 200 -

@@ -1,0 +1,32 @@
+[2023-08-15 18:43:14,714] : werkzeug: INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-08-15 18:43:14,714] : werkzeug: INFO: [33mPress CTRL+C to quit[0m
+[2023-08-15 18:43:23,304] : root: DEBUG: csr data loaded
+[2023-08-15 18:43:23,337] : root: DEBUG: movies df loaded
+[2023-08-15 18:43:23,489] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:43:23] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:43:23,973] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:43:23] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 18:43:29,469] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:43:29] "GET / HTTP/1.1" 200 -
+[2023-08-15 18:43:32,967] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:43:32] "GET /homepage HTTP/1.1" 200 -
+[2023-08-15 18:43:32,997] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:43:32] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 18:43:38,013] : root: DEBUG: csr data loaded
+[2023-08-15 18:43:38,033] : root: DEBUG: movies df loaded
+[2023-08-15 18:43:38,171] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:43:38] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:43:38,195] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:43:38] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 18:43:45,752] : root: DEBUG: csr data loaded
+[2023-08-15 18:43:45,773] : root: DEBUG: movies df loaded
+[2023-08-15 18:43:45,929] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:43:45] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:43:45,952] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:43:45] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 18:43:52,382] : root: DEBUG: csr data loaded
+[2023-08-15 18:43:52,402] : root: DEBUG: movies df loaded
+[2023-08-15 18:43:52,579] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 18:43:52,581] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:43:52] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:43:52,607] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:43:52] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 18:44:00,365] : root: DEBUG: csr data loaded
+[2023-08-15 18:44:00,390] : root: DEBUG: movies df loaded
+[2023-08-15 18:44:00,511] : root: ERROR: No movies found, please try another one..!!
+[2023-08-15 18:44:00,513] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:44:00] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:44:00,537] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:44:00] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
+[2023-08-15 18:44:05,992] : root: DEBUG: csr data loaded
+[2023-08-15 18:44:06,017] : root: DEBUG: movies df loaded
+[2023-08-15 18:44:06,142] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:44:06] "POST /homepage HTTP/1.1" 200 -
+[2023-08-15 18:44:06,168] : werkzeug: INFO: 127.0.0.1 - - [15/Aug/2023 18:44:06] "[36mGET /static/marius.jpg HTTP/1.1[0m" 304 -
