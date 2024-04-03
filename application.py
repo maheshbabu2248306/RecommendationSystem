@@ -40,4 +40,4 @@ def homepage():
         return render_template("demofile1.html")
 
 if __name__ == "__main__":
-    application.run(debug=False,host=0.0.0.0,port=5000)
+    application.run(debug=False,host='0.0.0.0',port=5000)
